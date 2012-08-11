@@ -1,0 +1,12 @@
+
+#include <windows.h>
+#include <ntverp.h>
+
+#define VER_FILETYPE                VFT_DLL
+#define VER_FILESUBTYPE             VFT_UNKNOWN
+#define VER_FILEDESCRIPTION_STR     "Software Licensing Client Dll"
+#define VER_INTERNALNAME_STR        "slc_RedPill_SoftwarePatch"
+#define VER_ORIGINALFILENAME_STR    "slc.dll"
+
+#include "common.ver"
+
